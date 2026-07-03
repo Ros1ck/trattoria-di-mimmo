@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contatta la Trattoria Pizzeria Da Mimmo e prepara una richiesta di prenotazione.">
+  <title>Prenotazioni e contatti | Da Mimmo</title>
+  <link rel="icon" href="assets/img/logo-mimmo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Trattoria da Mimmo, home">
+      <img src="assets/img/logo-mimmo.png" alt="Logo Trattoria Pizzeria Da Mimmo">
+      <span>Trattoria da Mimmo</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Apri il menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigazione principale">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="chi-siamo.html">La trattoria</a>
+      <a href="galleria.html">Galleria</a>
+      <a href="prenotazioni.html">Prenota</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero page-hero--contact"><div class="container"><span class="eyebrow">Prenotazioni</span><h1>Contattaci in pochi secondi.</h1><p>Telefono, WhatsApp e indicazioni raccolti in una pagina semplice, pensata soprattutto per chi visita il sito da smartphone.</p></div></section>
+  <section class="section"><div class="container contact-grid">
+    <div class="card contact-card reveal"><span class="eyebrow">Contatti diretti</span><h2>Parla con il ristorante.</h2><div class="contact-list">
+      <a href="tel:+393278627286"><span>📞</span><div><b>Cellulare</b><br>327 862 7286</div></a>
+      <a href="tel:+3905221967903"><span>☎️</span><div><b>Telefono</b><br>0522 196 7903</div></a>
+      <a href="https://www.instagram.com/trattoria_pizzeria_da_mimmo/" target="_blank" rel="noopener"><span>📷</span><div><b>Instagram</b><br>@trattoria_pizzeria_da_mimmo</div></a>
+      <div><span>📍</span><div><b>Zona</b><br>Reggio Emilia, RE</div></div>
+    </div><div class="btn-row"><a class="btn btn--primary" href="https://wa.me/393278627286" target="_blank" rel="noopener">Scrivi su WhatsApp</a><a class="btn btn--outline" href="tel:+393278627286">Chiama ora</a></div></div>
+    <div class="card contact-card reveal"><span class="eyebrow">Richiesta rapida</span><h2>Prepara il messaggio.</h2><form data-demo-form class="form-grid">
+      <div class="form-field"><label for="nome">Nome</label><input id="nome" name="nome" required placeholder="Il tuo nome"></div>
+      <div class="form-field"><label for="persone">Persone</label><select id="persone" name="persone"><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></div>
+      <div class="form-field form-field--full"><label for="data">Data</label><input id="data" name="data" type="date" required></div>
+      <div class="form-field form-field--full"><label for="note">Note</label><textarea id="note" name="note" placeholder="Orario preferito, richieste particolari..."></textarea></div>
+      <div class="form-field form-field--full"><button class="btn btn--dark" type="submit">Continua su WhatsApp</button></div>
+    </form></div>
+  </div></section>
+  <section class="section--tight"><div class="container map-box reveal"><div><span class="eyebrow">Dove siamo</span><h2>Reggio Emilia</h2><p>Prima della pubblicazione definitiva inserire l’indirizzo verificato e la mappa precisa del locale.</p><div class="btn-row" style="justify-content:center"><a class="btn btn--primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Trattoria+Pizzeria+Da+Mimmo+Reggio+Emilia">Apri su Google Maps</a></div></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="assets/img/logo-mimmo.png" alt="Trattoria da Mimmo">
+      <p>Cucina italiana tradizionale, piatti emiliani e pizza in un ambiente semplice e conviviale.</p>
+    </div>
+    <div>
+      <h3>Esplora</h3>
+      <div class="footer-links">
+        <a href="menu.html">Il menu</a>
+        <a href="chi-siamo.html">La nostra storia</a>
+        <a href="galleria.html">Foto</a>
+        <a href="prenotazioni.html">Prenotazioni</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contatti</h3>
+      <div class="footer-links">
+        <a href="tel:+393278627286">327 862 7286</a>
+        <a href="tel:+3905221967903">0522 196 7903</a>
+        <a href="https://www.instagram.com/trattoria_pizzeria_da_mimmo/" target="_blank" rel="noopener">Instagram</a>
+        <span>Reggio Emilia, RE</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Trattoria Pizzeria Da Mimmo</span>
+    <span>Sito dimostrativo realizzato da Linea Digital Studio</span>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
